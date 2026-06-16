@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "BridgeHearApp",
+    "slug": "BridgeHearApp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "googleMobileAdsAppId": "ca-app-pub-3973742192500595~7116412579"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "react-native-google-mobile-ads",
+        {
+          "androidAppId": "ca-app-pub-3973742192500595~7116412579",
+          "iosAppId": "ca-app-pub-3973742192500595~7116412579"
+        }
+      ]
+    ]
+  }
+}
